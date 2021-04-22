@@ -5,8 +5,7 @@ function fetch (url) {
     https.get(url, (res) => {
       let data = '';
       res.on('data', (rd) => data = data + rd);
-      res.on('end', () => resolve(data));
-      res.on('error', reject);
+                                       res.on('error', reject);
     });
   });
 }
@@ -17,7 +16,7 @@ fetch('https://www.javascript.com/')
   });
 
   (async function read() {
-    const data = await fetch('https://www.javascript.com/');
+    const data = await fetch('https://www.javascript.com/'); 
 
     console.log(data.length);
   })();
