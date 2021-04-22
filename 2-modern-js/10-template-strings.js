@@ -3,7 +3,8 @@ const greeting = "Hello World";
 const answer = 'Forty Two';
 
 const html = `
-  <div>
+<div>${greeting} </div> 
+<div>
     ${Math.random()}
   </div>
 `;
