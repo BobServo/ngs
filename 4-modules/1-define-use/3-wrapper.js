@@ -5,5 +5,7 @@ exports.a = 42;
 module.exports.b = 74;
 module.exports.c = "hey";
 
+module.exports.d = "something";
+
 // return module.exports;
 //}(module.exports, module)
